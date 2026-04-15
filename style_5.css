@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    
+}
+
+.post-img {
+    width: 120px; /* Фіксована ширина для гарного вигляду */
+    height: 120px;
+    object-fit: cover; /* Обрізає картинку, якщо вона не квадратна */
+}
+
+/* На мобільних зменшуємо картинку */
+@media (max-width: 576px) {
+    .placeholder-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+/* Стилізація списків  */
+aside ul li {
+    padding: 4px 0;
+    border-bottom: 1px transparent solid;
+}
+
+aside ul li:hover {
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+
+footer {
+    color: #666;
+}
